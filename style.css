@@ -13,12 +13,13 @@ body {
 }
 
 main {
-    width: 920px;
+    max-width: 920px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 10px;
     overflow: hidden;
+    margin: 25px;
 }
 
 section {
@@ -80,4 +81,10 @@ button {
     padding: 10px 25px;
     border-radius: 25px;
     font-size: 14px;
+    cursor: pointer;
+}
+
+button:focus-visible, button:hover {
+    background-color: unset;
+    color: hsl(0, 0%, 95%);
 }
