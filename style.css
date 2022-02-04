@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsl(0, 0%, 95%);
+}
+
+main {
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section {
+    width: 306px;
+    flex-shrink: 0;
+    padding: 48px;
+}
+
+.sedans {
+    background: hsl(31, 77%, 52%);
+}
+
+.sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background: hsl(184, 100%, 22%);
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(0, 0%, 95%);
+}
+
+h2, p {
+    margin-top: 30px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 80px;
+    line-height: 1.75;
+}
+
+p, button {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: hsl(0, 0%, 95%) 2px solid;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 14px;
+}
